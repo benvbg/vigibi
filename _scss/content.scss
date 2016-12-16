@@ -1,0 +1,54 @@
+.global-container{
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  background: $thirdColor;
+  padding-bottom: 25px;
+
+}
+
+.block{
+  min-height: 200px;
+  border:5px solid $primaryColor;
+  background: $secondaryColor;
+  box-sizing: border-box;
+  float: left;
+  padding: 7px;
+  overflow: hidden;
+
+  color: $primaryColor;
+  font-weight: lighter;
+  h2{
+    text-transform: uppercase;
+  }
+  p{
+    line-height: 140%;
+  }
+  button{
+    border: none;
+    border-radius: none;
+    background: $thirdColor;
+    color: $primaryColor;
+    text-transform: uppercase;
+    padding: 8px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 5px grey;
+  }
+}
+
+.--x1{
+  width: $val_block;
+}
+
+.--x2{
+  width: $val_block_x2;
+}
+
+.--x3{
+  width: $val_block_x3;
+}
+
+.--x4{
+  width: $val_block_x4;
+}

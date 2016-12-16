@@ -1,0 +1,11 @@
+{
+  "name": "vibigi",
+  "version": "1.0.0",
+  "description": "Snippets-easy",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Verboogen",
+  "license": "ISC"
+}

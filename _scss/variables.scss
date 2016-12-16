@@ -1,0 +1,28 @@
+
+
+// ---- FONTS ----
+$basic-font:sans-serif;
+
+// SET FONT SIZE ----
+body{font-size: 100%;}
+$pSize:1.3em;
+$h1Size:3.998em;
+$h2Size:2.827em;
+$h3Size:1.999em;
+$h4Size:1.414em;
+$smallSize:0.707em;
+
+// ---- COLORS ----
+$primaryColor:    #FFF;
+$secondaryColor:  #5CA4A9;
+$thirdColor:      #ED6A5A;
+$fourthColor:          #9BC1BC;
+
+// ---- PROPORTION ----
+$nbr_block:5; //change this for more column in rows
+$cal_blck:(100/$nbr_block);
+
+$val_block:$cal_blck+%;
+$val_block_x2:($cal_blck * 2)+%;
+$val_block_x3:($cal_blck * 3)+%;
+$val_block_x4:($cal_blck * 4)+%;
